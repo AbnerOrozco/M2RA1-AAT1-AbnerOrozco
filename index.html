@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.js"></script>
+</head>
+<body class="p-3 mb-2 bg-dark-subtle text-dark-emphasis">
+    <div class="container-fluid p-3 mb-3 bg-primary-subtle text-primary-emphasis">
+        <div class="row">
+            <div class="col-auto">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png" class="float-left" style="width: 150px; height: auto;" alt="">
+            </div>
+            <div class="col"></div> <!-- Esta columna vacía separa el primer elemento del resto -->
+            <div class="col-auto">
+                <a  href="https://www.facebook.com/intecapoficial/" >
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwsNDQ0KDQ8QDQ0NCA0ICA0NCBANDQcNFhEWFxYRExMYHCgsGBolGx8VITEhMTU3Li4uFx8zODMsNygtLisBCgoKDQ0OFxAPFS0dHR0rLSsrLTA3Ky03Ly0tKzAtLSstKyswKy0tLS0tKysrLS0rKy0rKysrLS0tLS4tKystK//AABEIANwA3AMBEQACEQEDEQH/xAAcAAEBAAIDAQEAAAAAAAAAAAAAAQYHAgQFCAP/xAA+EAABBAACBgYGCAYDAQAAAAAAAQIDEQQSBRRTdJPRBgchNLGyFjE1QVSBEyIlUWFxkqEyUnKRo8FCgoQk/8QAGgEBAQADAQEAAAAAAAAAAAAAAAEDBQYCBP/EADARAQACAQEHBAIBAwQDAAAAAAABEQIDBAUTM1FScRUhQYESsTEiIzJCYZHRJDRD/9oADAMBAAIRAxEAPwD9NUh2bOE3kdlw8OkOAnPOf9UmqQ7NnCbyHDw6QvEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pNUg2bOE3kOHh0g4mfdJqkGzZwm8hw8OkHEz7pfrZ7eKMyAszICzMgLMyAszICzMgLMyAszICzMgLMyAszICzMgLMyAszICzMgLMyAszICzMgLMyAszICzMgLMyAszICzMgLMyAszICzMgLcLKkygQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKHr2hA8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAHGz09QWKQsBYCwFgLAWAsBYCwFgLAWAsBYCwFgLAWAsBYCwFgLAWAsBYHGxMqWULAWAsBYCwFgLAWAsBYCwFgejo3QuMxXbFE5W/zuTKz+6ny622aOl/ll7vq0Ni1tb/DH26shwvQKZe2WZrPvRjFeqfNaNdnvjG/6cbbPT3HnMf1507regMHvnkv8I2oYZ3xqfGMPojcen85yO6Aw+7EP+cTVEb41PnCCdx6fxnLrS9AX/wDDEIv9UKp4KZMd8d2DFluOfjN5mkOh2NgY+bNG9jGLI/K9UVERO3sVD6dLemlnlGNTEy+PW3Rr6eM5XExDHLNo1ZYCwFgLAWAsBYEs8x7qFoBQCgFAKAUAoCe4WehQgBWoqqjUS1VaaiJauUkzERcrETM1DPejXQ9jUbiMWmZ6/WZCv8MX9X3r+Bz+2byyymcNL2jq6TYd1Y4xGet7z0ZgxqNRGoiIiJSIiUiGomZn+W7iIiKhyIoAAAdDTvc8VucvlUzbPzcPMPn2rkZ+JadOxcOWehQgAAAAAHEkPQLAWAsBYFsCWILAWAsBYCxm/QDQqO+0JUtEcrMIip7/AHv/ANGj3ptf/wAsfv8A6b7dGxxP97L6Z4aN0IAAAAAHQ093PFbnL5VM2z83DzD59r5GfiWnDsYcREewX3Cx7lFksosWUWWykFgLHFHFFs80pYoLFBYoLFCWKFsUFigsUFih+mHjWR7Im/xPkbG381WiZZRhjOU/D1hjOeUYx8t04HCtgijgb2NjjbGn40nrOM1M5zznKfl3Glpxp4RhHw/c8MgAAAAAHQ093PFbnL5VM2z83DzD59r5GfiWmlU7P4cRH8JmBZmAuY80qZi0llhVslCWWhxsq0tkKRVKCKBbIUWBMxaQsKZhSXAihVshT2uhcH0mkcOi+prnTL/1aqp+58W8c/x2fL/f2fdu3T/Lacf9vdtw5R14AAAYr0r6WJhFXDQIj56t6r2tw/5p71NnsO751v68/bH9tVt28o0J/DD3y/TA8Xp3HTKqvnk7fc2RWNT5Ib3T2PQwj2whz+ptmvnPvnLqpjsRtpOO7mZOBpdsMca2r3T/AMjsbOttWSRUVKVFmcqKn9yxpacf6YSdXUn2nKX4q4yPFJYT+FRSDiqlSlsPUQtkKSyhmFJcOKuLRaZhS2ZhR/JagqlRwohFUJMCWFiBXChLKlLakWqVHChlHV0l4/8ALCyKn7Gr3tyPttd0R/5H02icy6gAAfniZUjjfKvqZE6RfklnrDH8sojq855fjjOXRo/FYl0sj5nLbpJFkeq+9VU7XS04wwiI+HD6mc55TlPy/FVPbH8rYWUzFoMxKLLFH8iqoKSypTlmJT1/CZlFJZmLQlikpxsqqRAChQCAWwIEAKFAMp6uF/8Av/8AJJ4oanfHIjy226J/v/TaRzTpwAB0tNd0xO5y+RTLoc3HzDDtHKz8S0ginauIkLCKFQIAAqgQIoVAgAA42VSwFgLAWAsBYCwFgLAWBlXVt7QXdJPFpqN8cmPLbbo5/wBNqHNOnAAHS033TE7nL5FMuhzcPMfth2jlZ+JaOQ7dxIAsIWAsBYCwFgLAWAsBYHE8vaWWpCxUikqUSy1KlipCxUhYqR7EPRjScjGyMw73MexJI3I5tOaqWi+s+LLb9nxmYnP+H147DtGURMYe0ufonpb4V/6mcyeobN3r6ftPYeielvhX/qZzHqGzd56ftPYyPoJoLHYbGrNPC6NmrPZmVW1aqnZ2Ka/eW1aOrpRjhlc22G7dk1tLW/LPGopsM0TfAADq6Vic/DYiNiW5+FkYxP5nK1URDJo5RjqYzPxMMetjOWnlEfMS1H6J6W+Gf+pnM6qd47N3uV9P2nsPRPS3wr/1M5k9Q2bvPT9p7D0T0t8K/wDUzmPUNm7z0/aex+GN6P4/DxrNNA6ONFRHOVzaRV9XvPentmhqZfjhlcvGpsevp4/lnjUPMPqiHygULSBFBMICIUEgBwKoWwFi2BBYCwFgLG9NAdywm5Q+RDiNfm5eZdls3Kw8Q75iZwAAAAAAAAAAw7rPxGTBRxbTFt+aNRV5G13RhetM9Iane+VaMR1lq5VOmc5RYCwFgLAhQILYHAr0AAAAAAAWWEb20B3LCblD5EOI2jm5eZdjs3Jw8Q75hZwAAAAAAAAAA1z1r4j6+Fg+6OSZU/NURPBTf7lw/wA8mi3xl74YsAN60oAAAAAAABxKAUAAAAAABvfo/wBywm5Q+RDiNo5uXmXYbNysPEPQMLMAAAAAAAAAAGousrEZ9IuYnqiw8cXzX63+zqN0YVoX1lzO9Mr1/EMVNq14AAAAAAABwzFp5MyilMyihbFPVLYoosUUWKKSwNt6H6Y6KjwuHifPlezCxxyJ9C/6rkaiKnqOU1t3bTlqZTGHtMy6LQ2/Z8dPHGcveIdz030P8QnBk5GP0zauxm9Q2fuPTfQ/xCcGTkPTNq7D1DZ+529F9JdH4uT6DDy/SSZFky/Rub9VPWvahh1tj1tHH8tTGoZdLatLVy/HCbl658z6AAB+c8zY2PletMYxZJFq8rUS1UuOM5TER8plMYxMz8PB9N9D/Ef4JOR9vpu1dj4/UNn7j030P8R/gk5D03auw9Q2buPTfQ/xCcCTkPTdq7D1HZu79tVdJMc3E47E4li5mPnVYlqszE7E/Y6bY9OdLRxwmPeHPbVnGpq5ZRPtLzrPpp89FiikzIWkWyUtFiiixRRYopMxaS3CykGYimYWGcFmcFmcFmcFmchZnLYZ/wAAGf8AAFsw6rvaK7lJ4tNTvn/148tluqf7/wBNuHLukAAHR073PFbjN5FMuhzcfMMWvy8vEtBWdzEOOtMwoszCMVssS8wZwtmcWWZhYZwWZwWZwWZgSli0pBagsBYCwFgLAWAsBYCwFjMOqz2iu5S+LTU755EeWz3Vzvpt45d0YAA6Gnu5YvcZvIpl0Obh5j9sWvysvEvn87mHHKWwFgSwEAQLPVgLAWBLAtgSxLJRRYoosUUWWiixRRYooslFFiiiy0UWKKLFFMw6rPaS7lL4tNTvnkR5bPdfP+m3zl3RgADoae7li9xm8imbZ+bh5j9sWvy8vEvn47hx8LYpKLJRRYoosUUWKKLFFFiiixRRZaKLFFFiinCyvRYKEUC2CiwUWCksBYFsFFgosFMx6q/aS7lL4tNRvnkR5bHdfP8ApuA5d0YAA6Gnu5YvcZvIpm2fm4eY/bFr8vLxL58VTuXIFgosBYCwCKChVAgVQLYSiwUWCnEKALAWBLKLZBLKFgLAWAsDM+qpftJdyl8Wmn3zyI8tjuvn/TcJy7ogAB0NP9yxe4zeRTNs/Nw8x+2LX5eXiXz2d05FLAWAsC2QLKJYCwFgLAWAsBYCwIFAAAAAAAAAGZ9VK/aS7jL4tNRvnkR5bDdnO+m4jlnRAADoaf7li9xn8imbZ+bh5j9sWvy8vEvno7pySAAAAAAAAAAAABCqpEAAAAAAAAAADMuqn2mu4y+LTUb55EeWw3ZzvqW4zlnRAADoaf7li9wn8imbZ+bh5j9sWty8vEvnmzu3JCEAAAAAAAAAAAAQ9KAAAAAAAAAAADMuqf2mu4y+LTT765EeWw3ZzvpuQ5V0IAA8/pB3LF7hP5FM2z83DzH7Ytfl5eJfPB3jk1AAAAAAAAAAAACWFosFFgosFFgosFFgosFFgosFFgpmfVP7TXcZfFpp99ciPLYbt5303Icq6AAAef0g7li9wn8imbZ+bh5j9sWty8vEvnizvHKUWCiwUWCiwUWCiwUWCiwUWCiwUWCnEkqFAAAAAAAAAAAzXqn9pruMvi00u+eRHl9+7ed9NyHLugAAHn9IO5YzcJ/Ipm2fm4eY/bFrcvLxL52O8cqAAAAAAAAAAAAB/9k="  width="35" >
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="https://twitter.com/intecapoficial?lang=en">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjT7nZyVxKmO0OGOyp7yuZDN7Y67A9olZVWg&s" width="35" alt="Descripción de la imagen">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="https://www.instagram.com/intecapoficial/?hl=en">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHYAdgMBEQACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAMFBgcCAQj/xABNEAABAwICBQYHCA8JAAAAAAABAAIDBAUGEQcSITFBE1FhgZGhIlJxsbLC0SMyYoOTwdLhFBckJTM1QkVUY3J0gqLiFTREU2RzkvDx/8QAGwEAAgMBAQEAAAAAAAAAAAAAAgMEBQYHAQD/xAA5EQACAQIDAwkGBgIDAQAAAAAAAQIDBAURIRIxQQZRUmFxgaHB0RUiQpGx4RMjJDIz8DRDFmJyFP/aAAwDAQACEQMRAD8AqD26qoIyOvp5nKkRkC0eqTGQtoSkRkA0JPjIW0JPjIBo9T4yAaEnRkC0JNTAaEmpgsSYmCJMTBEjTPD1GmfCXp4FSxb1y1Mu4yBHtLSmxkNTzOVIjIFo9UmMhbQlIjIBoSfGQtoSkRkA0ep0ZANCToyBaEmpgNCTUwchJiYIkxMESNM8PUR4S0sa5UmWcZAcsSamPjIEe0tKdGQ7PMk7Fh+5X6cxW2nLwPfyu2MZ5T829SaSlPSKIN7fW9nHaqyy6uPyL/bdEzOTDrnc3F53spmZAH9p2/sCnRpNb2Zivymbf5NPTrfp6ko3RXYQNs9eT/ut+imqOXEhvlFdvhH5P1Oxouw941afjh9FGm0A8fu3zfL7nv2r8Pc9Z8sPYiU5I89vXfV8jw6LsPnc+tHxw+iiVaaPPbt31fL7jUmiqxub7nU17Dz8o0+qjVzNBLHrnil4+pBXjRVVwsdJaa5lR+qmbqO6juJ8uSdC86SJdHHYPSrHLrWpQK6iqrfUvpq2B8E7D4THjI/+dKnwmpLNF3TqQqx24PNA6cmFkJMTBEjTPCxSxrlCZMjIEljTEx0ZD1jskt8vEFBD4Iec5H+Iwbz/AN4kKVQg6k1FC7y9jaW8qsuG7rfA21jLXheybNSloaZuZJ49POXE9ZKvFsUodSOeN3F/cdKcv78kZ3d9K1W6Qss9FHFGN0lTm5x6gch2lQ3dyf7Uai25LwSzrzbfMv76EM7SRiZx/vkTfJA32I41ZviTf+P2K+F/NnB0iYn/AE9nyDPYmxk3xPPYVj0PFnn2w8T/AKe35FnsTo6gvA7LoeLOhpExN+nM+QZ7E1RQDwOy6Pix2HSViSN2bqinkHivgGXdkmqlFip4HaZaJrvLThzSfDVzsp73Ayl18gKiM+55/CB2tHTt6kMqDyziVV3gUqcdug8+riWTGeGqbElsc0NY2sjaXU83MeYnxT9a8o1XTlnwK2wvZWtTP4XvX94mCSxvhlfFK0skY4tc07wRvCuIyTWaNqmpJNbmcpyZ80JGmDkW6WNcmTGRkByxpiY+Mi96KKBo/tCvc3wiWwsPMPfHtzb2K6w2KylPuM1yjrtunS4avy9SN0wXB8tbS2thIjiZy7xzuOYb2AHtXt/Ue0okvkxbqNOdd73ouxbzNXtIKiRka1anI2p8ZAtBlutdwubi230U9QRv5OMkDyncFJhLPcRK9xRoLOrJLtJV+CMSsZrutE5HwXNJ7Ac1Ii5cxA9r2LeSqLxIOppp6WYw1UMkMrd7JGlpHUU+MyZCcKkdqDzRftEtlt9xmrauuijqJKcsbHFINYNzzOsR1bPIUUpGex+6rUVCFN5J55sk9LFjttPa4blTQQ01Ty4jPJtDeVBB3gcRlv8AKmUZvPIh4HdVpVXSk81lnrwJrRbc33HDDI5nF0lI8wZni3YW9xy6kNZZSIeM26pXTa3S19TOtJ1C2hxfVGMANqGtnAA4kZHvBPWp1rPOBe4RUdS0jnw0KqpiZZNCTEwci8SRrkyYuMgWWPemJjoyNE0Zs1LFMeJqnei1aHDP4e8yuPPO5X/lfVlI0kjXxXVdDIx/KFEvn+e+40OBaWUe1/Up8sXQo6ZexkXLR/gZt3yud1a4UIOUUQORmI3knxfP57G2t9tbUtxn8bxt27/Aofv4vm+/0NPq660YdoWCpmp6GnbsjYPB6mtG/qVhKUKa10MhSoXN5UewnKXH7sh4dIeGJZQz7Pc3P8p8DwO3JLVxTbJssBv4rPY8US1wt9oxLb2idkNXTvGccrCCR0tcNxTtGiFSr3FnU91uMlw9UZHerdd9H97EtuqniGYHkZsgQ9vFrwdmY+sZcPlvyZr7atb4tQyqx1W9c3Wv71ENfcQ3O/SMfc6kyBnvGNaGtb5APOpEMkTLaxoWqapR3/M0HQq77kureAkjPc5DVebRneUS9+m+pkPplbliKjOW+kHpuUi1eSZJwDW3l2+SKCpqZdtCTUwcjQZGLkyZEjIGkYmJjYyNB0et1bE794f5gtJhf8HezL4287ldiKPj9mtiisPQz0QoF+/1D7jRYM8rOHf9WV6it7rhcaajYcjPK2PPmBO09iVRW3NR5y0rV1RpSqPgmzbLjVUuHrDLUNj1YKOHJkbejY1o68gtFKSpQz4I55QpVL25Uc/ek9/1ZgF5uNZdq+Str5TJM89TRwa0cAFTuo5y2mdNtbalbUlTpLJIBTYyHOJZsB4lmsF3iY+QmhqHhs8Z3DPZrjmI7wpVOpsvqKXGMOjd0W0vfW5+Xeaxjy1Mu+GayLVBlhYZoTzObt7xmOtTHuMZhVy7e7hLg9H3mAooyOhNGqaFD7ldh8KL1l7J5syfKNe9T7/IjtM347oP3X1in27yzHcnv4J9vkZ6pkZF80JNTAyNKkYuTplZGQNIxMTHRkXzAYysjh+vf8y0+E/4/ezNYw/1Pcil45ZniWr/AIPRCrsQf6iXcX+EPK0h3/UBwmGx4otrn7uVy6y0gd5X1lJfjxJOJZuyqJc3mi+aSIpJcIVgjBOq6NzvIHjNXV5/CzM4FKMb6GfX9DE5YlSpnQoyBHtLSnRkOTzExjpHBjAS5xyAHEpylmgJZRWbPpOoIgtchmIyjgJfn0N2q33ROUQW1WWzxfmfNY3JNOWiOotGp6FPwd2/ai9ZNTzMjylWtPv8iP0z/jqg/dj6RT6byY3k6vyZ9vkZ6pUZGgaEnKQGRqcjFylMpIsGkYjTGxkXXBAys7h+ud5gtTg/+N3sz2Lf5Hcio41ZniGqPQz0Qq3En+pl3F5hL/Sx7/qV9pfBNHNEcpI3B7TzEHMKLCbi00WjSnFxluZrtFU0t9swk1Q+CojLZIzwz2OaVq6c416e1wZhatOpZ19nc4vTyZkuJ8JV1lne5sUk9Fn4E7RnkOZ2W49yp61rOk9NUbbD8Wo3UUm8pcV6FVdGJHajPCcdga3aexKjmy7UtlZvcX7R9gap+zorteIXQwwkPggePCe7g4jgBv27c++ytreWalIzGN43T/DdvbvNvRtbkuYsmlG+MteH30cb/uquBjaBwZ+UezZ1qTcVNmOzxZUYDZO4uVUa92Gvfw9TEkiMjetGqaFB7jdj8KLzOUmm82zH8pv3U+/yIzTMfv5Qj/S+sU+LyY/k4vyJ9vkZ+nxkX7Qk9SBaNae1csRnUxiRnQjTGJltwWfvbM3iJj5gtTgrzt2uvyRR4r/Mn1ebK1jSIi+yuI98xhHZl8yr8UTV0+xFthU1/wDMl1srkkagpltGQbYb3U2KpL4hykD/AMJCTkD0jmKnWt3Og9NVzEe9sqd3HKWkluf94GgW3FFpuDBqVTIZDvimOo4duw9SvqV5Rq7nr1mXuMMuqL1jmudah7paGEGUyU0Y8cuaO9PzgtdCLsVp+7k38ytX/SBarZE5lC4V9TuDYj4A8rt3Zmo9W8pw0jqy3ssBua7TqLYj17/l6mO3u5Vt3uElbcJeUmf1Bo4NA4AKudVzltSN3a21K2pKlSWSQAmxkOaNa0KxkW+5y5eC6ZjQekNOfnCnW7zzMVyna/Fpx6n9fsQWmORrsS0zBvZSNz63OTW8pE3k5H9LJ/8AbyRQ02Mi9aEnxkCbC9q5imZZMZe1EmMTJvCFQIqmemccuUGs3yjf3eZX+B1spypPjqvMrcTp5wjUXDQ6xnbnzxx1sTdYxjVkA8Xgerb2qVjFtKSVaPDf2A4VcKEnSlx3FJkjVAmaKMgaSNMTHRkCyx58ExMdGQFLC3xR2JiZIjN84LLGmpjYyA5Y96amPjIGEL3yNjja573uDWtaMy4ncAE2LGOaScnokb5gWyusOHYKWcD7JeTLNlwceHUMh1K6oU9iGT3nNMWvFd3Uqkf2rRdn3Mfx3dG3bFNdURO1oWP5KM8CG7Mx0E5nrSHUzm2bXCbZ29nCL37336kAnRkT2hJ8ZANG0OauapmQTGHtRphpnDHvhlZLEdV7DmCm0qkqU1OO9BSUZxcZbmXK13SG4xBuxswHhxk+bnC2Vlf07qPNLijP3FrOg+rnBK3C1vqnF7A+Bx38kdnYUurhVvUe0vd7B9HEq9NZPXtI1+B43e9r3DyxD2qP7Givj8CZHGpL4PEYdgFp/OJ+R+te+x10/AYsdfQ8fsNO0dh35zI+I/qRLCUvj8A1ygy/1+P2GnaNGO33R3yH9SNYYl8Qa5Rtf6/H7HjdF1KT7rdJy3mZE1p780yOHRW+R8+UtRftpr5v7E/Y8H2exSCakpzJU5fh5jrOHk4DqUqlb06eq3lXeYtdXa2akso8y0X3K9pCxxDR00trtEokq5AWSzRnZCOIB8bzJNxcqK2Y7y0wXBZ1ZqvXWUVqk+P2+pj6iwkbdo9UiMhbQlIjIBo2xzVztMxSY25qNMNMZe1EmGmMkFrg5pLSNoIORCOLaeaDzz0YZFfblTjVEwkA/wAxuffvVlSxW6gstrPtRHlYW8+GXYOHFle3fDTH+F3tUtY1X6K8fUD2VRfF/wB7jh2Ma5v+Gpz/AMvajWM1eivEJYPR6TGn43rxupKb+b2oljFXooYsEov4n4DD8eXIbqSl69b2o1i1TooYsCodJ+AJPpAvGRDIKJvTqOPrL32pVfBDo4Ba8ZS+a9Cv3jE17ubHR1Ne9sTt8cPubT0HLaR0EpcrurPeyztsMs6DzhDXnev19CsyxcwQJlvGQI9pBTYyHJ5nKkRkC0eqRGQto3AhYIwo25q9TCTG3NRJhpjL2o0w0xl7USYxMHkYjTGJgz2I0xqYNIxMTGxkDSRpiY6MgWWNMTHRkByxpiY+MgSWPempjoyA5Yk1MfGQI9paU2Mh285UiMgWjc8liTAHLgvT0bcF6gkxpwRoPMae1Eg0xh7USGJjEjQjTGJg0jUxMamDSMCNMbFgsjExMfFgsrAmJjYsElZvTUx8ZAcrBtTEx8ZAcsYTUx8ZArhkU1Maj//Z" width="35" alt="Descripción de la imagen">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="https://www.youtube.com/intecapoficial">
+                    <img src="data:image/png;base64,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" width="35" alt="Descripción de la imagen">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="https://gt.linkedin.com/school/intecapoficial/">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAMAAAAqJH57AAAAYFBMVEUAfrv///8Ae7pjnMkAdre1z+Tk7vYAeLiXvdoAcLWRudhEjsP1+fzf6/QAc7bw9vpOlcYXg76Br9OJs9Wkxd/S4u8vh794qtHJ3Ow/icBZl8fA1+lno810pc6uy+Jvp8++BeasAAACzUlEQVRoge2bbbeiIBDHATEzETLSUne73/9bLvZwc2HqQGcZ7jnL/00vMH6B48wwOYTeJUq970hcdXtdigeQ3D7UgfOKRQYTwirOD2pNLhmPTn2Is/JJ3kk07iK5e5CRwXe0IZfYYIMuF7KKb1iumDLkA55xPcUPlIgUYIMWpExELomukpArTfYpDMyY2J7E9tWvlIr7U8VYEhPgcpiKaZDYls873S5hVLW6Q33e+Uk9Mge6OSGi+ZGudUSLZRYYD81P1FaBY2edcsgKhcy1A6b0hIGWLUA+Y5AHd7PNdiP4dzYBYEpHhFNAAZIbBHKyNb+4z0N8MGzbPYZt8x1ARkkTGbDdSMcQYNEHpPyAny3wXOOAjZH9jT6jgQmp1xuuEcFLHnbcXLHtsUPOARkn4/RrPxKeIPNlrEqTcGf9eLGK11dJ/pGNMFtvR58DnE+67DdKqX7e/h7r4MPJ0NhaR2dn8J6iMdncfcBdotWDDFq4iRjC0mX161trjO6urkY2sxtcxWUIWTffOjOs60cbe3AhM+BLN3ZIte0DMiM9DDaa/YvX4eRqEM5Xnuq9Vx1Mls07sIk6vsEumMygbHUt38wilKztFMaV54EwlPzauL6l4qzZR0cvK4tB9juLxiD75c1RyF4PdRSy8DkGRyHTr4jkzbm8lP0rr3Lx2O7PyNumMomIrLsTdAo2LtSjmvcJue++c4DKKSHediTObs/1el4JoX2qDuHk1rqHUNlBePxTE06erEnBKo990b8gnx2zrYGfV0Qgu48qZGQRyMKNBlA5LwK5h6ZEIc+Ad6pRyJBfrF0nGoG8hcjuEx2BvAOCfiZnciZnciZnciZnciZnciZnciZnMg6ZjYWtdaF2sgdHaA7nqsKrtu78I8reDYZP8R8r3fvb6d5ZT/eefrrehHT9GOl6UBL23aTrNUrYX5WwpyxhH13C3kGaoF/yDzb7Mlzz9rfbAAAAAElFTkSuQmCC" width="35" alt="Descripción de la imagen">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <nav class=" navbar navbar-expand-md navbar-light bg" style="background-color: #5b8cb9f6; color: white;">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#"> </a>
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="empleados.html">Empleados</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="sueldoLiquido.html">Sueldo Liquido</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="indemizacion.html">Indemizacion</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+
+                </span>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+
+
+
+
+    <div class="container text-center p-3 mb-2 bg-black text-white rounded-4">
+        <div class="row">
+          <div class="col-12 col-md-3 order-md-2 border 1px rounded-4">
+            <h1>Mision</h1>
+            <br>
+            formar, capaitar, asistir tecnicamente y certificar por competencia laborales, a personas y enpresas en todas las actividades economicas y niveles ocupacionales, promoviendo la productividad, la empleabilidad y el desarrollo del pais.
+             <br>          </div>
+
+            <div class="container-fluid col-12 col-md-6 order-md-3 border 1px rounded-4">
+                <iframe class="container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15442.301594160213!2d-90.51634045353208!3d14.623247397701098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a23a40c88e47%3A0x328d054f0998adc4!2sInstituto%20T%C3%A9cnico%20de%20Capacitaci%C3%B3n%20y%20Productividad%20(INTECAP)!5e0!3m2!1sen!2sgt!4v1714411714181!5m2!1sen!2sgt" height="400"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+
+          <div class="col-12 col-md-3 order-md-4 border 1px rounded-4">
+            <h1>Vision</h1>
+            <br>
+            ser instituto lider de clase mundia, innovandora en formacion profesional, capacitacion, certificacion de las competencias laborales y asistencia tecnica baluante de la productividad <br>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center p-3 mb-2 bg-black text-white rounded-4">
+        <div class="row">
+          <div class="col-12 col-md-9 order-md-2 border 1px rounded-4">
+            <h1>valores institucionales</h1>
+            <br>
+            Vivimos con honestidad, honradez, ética, respeto y responsabilidad; privilegiamos el bien común; cumplimos con leyes y normas, somos congruentes y leales a la institución.             <br>          </div>
+
+
+
+          <div class="col-12 col-md-3 order-md-4 border 1px rounded-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1Mardt46fwtEjqJKUMCVqIZImpa1gVwQzh7ACmqKqg&s" alt="">  
+        </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
