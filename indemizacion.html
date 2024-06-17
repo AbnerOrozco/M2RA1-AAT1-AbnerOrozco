@@ -8,7 +8,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="jquery.js"></script>
+    <script src="js/calculos.js"></script>
+    <link rel="stylesheet" href="css/indemnizacion.css">
 </head>
 <body class="p-3 mb-2 bg-dark-subtle text-dark-emphasis">
     <div class="container-fluid p-3 mb-3 bg-primary-subtle text-primary-emphasis">
@@ -85,31 +86,31 @@
                 <br>
                 <div class="form-group">
                     <label for="txtSueldo">Sueldo base:</label>
-                    <input type="text" class="form-control" id="txtSueldo">
+                    <input type="text" class="form-control" id="txtSueldo" placeholder="ingrese su sueldo base">
                 </div>
                 <div class="form-group">
-                    <label for="txtAnos">Cantidad de años trabajados:</label>
-                    <input type="text" class="form-control" id="txtAnos">
+                    <label for="txtAnos">Cantidad de años trabajados: <br> ingrese sus años y seguido sin espacio coloque un punto "." y la cantidad de meses</label>
+                    <input type="text" class="form-control" id="txtAnos" placeholder="ingrese cantidad de años trabajados">
                 </div>
                 <div class="form-group">
                     <label for="txtMeses">Cantidad de meses trabajados:</label>
-                    <input type="text" class="form-control" id="txtMeses">
+                    <input type="text" class="form-control" id="txtMeses" disabled>
                 </div>
                 <div class="form-group">
                     <label for="txtBono">Bono 14 proporcional:</label>
-                    <input type="email" class="form-control" id="txtBono">
+                    <input type="email" class="form-control" id="txtBono" disabled>
                 </div>
                 <div class="form-group">
                     <label for="txtAguinaldo">Aguinaldo proporcional:</label>
-                    <input type="email" class="form-control" id="txtAguinaldo">
+                    <input type="email" class="form-control" id="txtAguinaldo" disabled>
                 </div>
                 <div class="form-group">
                     <label for="txtSalario">Salario pendiente:</label>
-                    <input type="email" class="form-control" id="txtSalario">
+                    <input type="email" class="form-control" id="txtSalario" placeholder="ingrese su Salario pendiente">
                 </div>
                 <div class="form-group">
                     <label for="txtDeudas">Deudas o cobros pendientes:</label>
-                    <input type="email" class="form-control" id="txtDeudas">
+                    <input type="email" class="form-control" id="txtDeudas" placeholder="ingrese deudas o cobros pendientes">
                 </div>
                 <br>
                 <p id="ganado" class="badge text-bg-success rounded-5 "> resutado:</p>

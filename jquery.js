@@ -91,7 +91,7 @@ $(document).ready(function() {
 */
 ///PAGINA 4 INDEMIZACION
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     function calcularMesesTrabajados() {
         var añosTrabajados = parseInt($('#txtAnos').val()) || 0;
         var mesesTrabajados = añosTrabajados * 12;
@@ -134,4 +134,4 @@ $(document).ready(function() {
         calcularIndemnizacion();
     });
     calcularIndemnizacion();
-});
+});  */
